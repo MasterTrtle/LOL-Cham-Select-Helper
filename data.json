@@ -1,0 +1,1213 @@
+{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/camille/top",
+   "nom":"camille",
+   "lane":"top"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/lulu/support",
+   "nom":"lulu",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/lux/support",
+   "nom":"lux",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/leesin/jungle",
+   "nom":"leesin",
+   "lane":"jungle"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/yasuo/mid",
+   "nom":"yasuo",
+   "lane":"mid"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/caitlyn/adc",
+   "nom":"caitlyn",
+   "lane":"adc"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/yone/top",
+   "nom":"yone",
+   "lane":"top"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/jinx/adc",
+   "nom":"jinx",
+   "lane":"adc"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/jhin/adc",
+   "nom":"jhin",
+   "lane":"adc"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/zed/mid",
+   "nom":"zed",
+   "lane":"mid"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/jayce/top",
+   "nom":"jayce",
+   "lane":"top"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/irelia/top",
+   "nom":"irelia",
+   "lane":"top"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/yuumi/support",
+   "nom":"yuumi",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/morgana/support",
+   "nom":"morgana",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/jax/top",
+   "nom":"jax",
+   "lane":"top"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/yone/mid",
+   "nom":"yone",
+   "lane":"mid"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/viktor/mid",
+   "nom":"viktor",
+   "lane":"mid"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/thresh/support",
+   "nom":"thresh",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/blitzcrank/support",
+   "nom":"blitzcrank",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/nami/support",
+   "nom":"nami",
+   "lane":"support"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/vi/jungle",
+   "nom":"vi",
+   "lane":"jungle"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/viego/jungle",
+   "nom":"viego",
+   "lane":"jungle"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/graves/jungle",
+   "nom":"graves",
+   "lane":"jungle"
+}{
+   "tier":"S+",
+   "href":"https://www.metasrc.com/5v5/champion/masteryi/jungle",
+   "nom":"masteryi",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/teemo/top",
+   "nom":"teemo",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/sett/top",
+   "nom":"sett",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/leona/support",
+   "nom":"leona",
+   "lane":"support"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/vayne/adc",
+   "nom":"vayne",
+   "lane":"adc"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/lux/mid",
+   "nom":"lux",
+   "lane":"mid"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/kayn/jungle",
+   "nom":"kayn",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/kassadin/mid",
+   "nom":"kassadin",
+   "lane":"mid"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/talon/jungle",
+   "nom":"talon",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/darius/top",
+   "nom":"darius",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/tryndamere/top",
+   "nom":"tryndamere",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/vex/mid",
+   "nom":"vex",
+   "lane":"mid"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/ezreal/adc",
+   "nom":"ezreal",
+   "lane":"adc"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/khazix/jungle",
+   "nom":"khazix",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/shen/top",
+   "nom":"shen",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/leblanc/mid",
+   "nom":"leblanc",
+   "lane":"mid"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/drmundo/top",
+   "nom":"drmundo",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/katarina/mid",
+   "nom":"katarina",
+   "lane":"mid"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/soraka/support",
+   "nom":"soraka",
+   "lane":"support"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/shaco/jungle",
+   "nom":"shaco",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/pyke/support",
+   "nom":"pyke",
+   "lane":"support"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/fiora/top",
+   "nom":"fiora",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/nasus/top",
+   "nom":"nasus",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/hecarim/jungle",
+   "nom":"hecarim",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/lucian/adc",
+   "nom":"lucian",
+   "lane":"adc"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/rakan/support",
+   "nom":"rakan",
+   "lane":"support"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/tahmkench/top",
+   "nom":"tahmkench",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/nautilus/support",
+   "nom":"nautilus",
+   "lane":"support"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/ekko/jungle",
+   "nom":"ekko",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/sylas/mid",
+   "nom":"sylas",
+   "lane":"mid"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/karma/support",
+   "nom":"karma",
+   "lane":"support"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/xinzhao/jungle",
+   "nom":"xinzhao",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/malphite/top",
+   "nom":"malphite",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/warwick/jungle",
+   "nom":"warwick",
+   "lane":"jungle"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/garen/top",
+   "nom":"garen",
+   "lane":"top"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/missfortune/adc",
+   "nom":"missfortune",
+   "lane":"adc"
+}{
+   "tier":"S",
+   "href":"https://www.metasrc.com/5v5/champion/janna/support",
+   "nom":"janna",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/akali/mid",
+   "nom":"akali",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/chogath/top",
+   "nom":"chogath",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/urgot/top",
+   "nom":"urgot",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/xerath/support",
+   "nom":"xerath",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/ornn/top",
+   "nom":"ornn",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/mordekaiser/top",
+   "nom":"mordekaiser",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/sona/support",
+   "nom":"sona",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/vladimir/mid",
+   "nom":"vladimir",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/riven/top",
+   "nom":"riven",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/senna/support",
+   "nom":"senna",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/graves/top",
+   "nom":"graves",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/zac/jungle",
+   "nom":"zac",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/jarvaniv/jungle",
+   "nom":"jarvaniv",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/nocturne/jungle",
+   "nom":"nocturne",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/yasuo/top",
+   "nom":"yasuo",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/akshan/mid",
+   "nom":"akshan",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/trundle/jungle",
+   "nom":"trundle",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/kayle/top",
+   "nom":"kayle",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/nunu/jungle",
+   "nom":"nunu",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/vayne/top",
+   "nom":"vayne",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/twistedfate/mid",
+   "nom":"twistedfate",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/ahri/mid",
+   "nom":"ahri",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/zilean/support",
+   "nom":"zilean",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/veigar/mid",
+   "nom":"veigar",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/ashe/adc",
+   "nom":"ashe",
+   "lane":"adc"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/aurelionsol/mid",
+   "nom":"aurelionsol",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/akali/top",
+   "nom":"akali",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/zilean/mid",
+   "nom":"zilean",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/xerath/mid",
+   "nom":"xerath",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/sion/top",
+   "nom":"sion",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/zed/jungle",
+   "nom":"zed",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/sejuani/jungle",
+   "nom":"sejuani",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/alistar/support",
+   "nom":"alistar",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/brand/support",
+   "nom":"brand",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/irelia/mid",
+   "nom":"irelia",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/bard/support",
+   "nom":"bard",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/corki/mid",
+   "nom":"corki",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/kaisa/adc",
+   "nom":"kaisa",
+   "lane":"adc"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/anivia/mid",
+   "nom":"anivia",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/nidalee/jungle",
+   "nom":"nidalee",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/twitch/adc",
+   "nom":"twitch",
+   "lane":"adc"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/draven/adc",
+   "nom":"draven",
+   "lane":"adc"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/gangplank/top",
+   "nom":"gangplank",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/braum/support",
+   "nom":"braum",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/zyra/support",
+   "nom":"zyra",
+   "lane":"support"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/rammus/jungle",
+   "nom":"rammus",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/karthus/adc",
+   "nom":"karthus",
+   "lane":"adc"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/kindred/jungle",
+   "nom":"kindred",
+   "lane":"jungle"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/viktor/top",
+   "nom":"viktor",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/syndra/mid",
+   "nom":"syndra",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/kayle/mid",
+   "nom":"kayle",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/fizz/mid",
+   "nom":"fizz",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/zoe/mid",
+   "nom":"zoe",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/galio/mid",
+   "nom":"galio",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/singed/mid",
+   "nom":"singed",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/seraphine/mid",
+   "nom":"seraphine",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/malzahar/mid",
+   "nom":"malzahar",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/singed/top",
+   "nom":"singed",
+   "lane":"top"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/chogath/mid",
+   "nom":"chogath",
+   "lane":"mid"
+}{
+   "tier":"A",
+   "href":"https://www.metasrc.com/5v5/champion/taliyah/mid",
+   "nom":"taliyah",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/rell/support",
+   "nom":"rell",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/gwen/top",
+   "nom":"gwen",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/rumble/mid",
+   "nom":"rumble",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/tryndamere/mid",
+   "nom":"tryndamere",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/reksai/jungle",
+   "nom":"reksai",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/kled/top",
+   "nom":"kled",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/ekko/mid",
+   "nom":"ekko",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/fiddlesticks/jungle",
+   "nom":"fiddlesticks",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/velkoz/mid",
+   "nom":"velkoz",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/amumu/jungle",
+   "nom":"amumu",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/yorick/top",
+   "nom":"yorick",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/maokai/support",
+   "nom":"maokai",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/lissandra/mid",
+   "nom":"lissandra",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/malphite/mid",
+   "nom":"malphite",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/graves/mid",
+   "nom":"graves",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/veigar/adc",
+   "nom":"veigar",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/kogmaw/adc",
+   "nom":"kogmaw",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/annie/mid",
+   "nom":"annie",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/orianna/mid",
+   "nom":"orianna",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/qiyana/mid",
+   "nom":"qiyana",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/xayah/adc",
+   "nom":"xayah",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/ziggs/adc",
+   "nom":"ziggs",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/kennen/top",
+   "nom":"kennen",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/seraphine/adc",
+   "nom":"seraphine",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/poppy/jungle",
+   "nom":"poppy",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/seraphine/support",
+   "nom":"seraphine",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/diana/mid",
+   "nom":"diana",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/aatrox/top",
+   "nom":"aatrox",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/samira/adc",
+   "nom":"samira",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/tristana/adc",
+   "nom":"tristana",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/skarner/jungle",
+   "nom":"skarner",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/renekton/top",
+   "nom":"renekton",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/monkeyking/top",
+   "nom":"monkeyking",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/lillia/jungle",
+   "nom":"lillia",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/elise/jungle",
+   "nom":"elise",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/swain/support",
+   "nom":"swain",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/heimerdinger/adc",
+   "nom":"heimerdinger",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/senna/adc",
+   "nom":"senna",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/velkoz/support",
+   "nom":"velkoz",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/evelynn/jungle",
+   "nom":"evelynn",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/trundle/top",
+   "nom":"trundle",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/taliyah/support",
+   "nom":"taliyah",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/swain/mid",
+   "nom":"swain",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/cassiopeia/mid",
+   "nom":"cassiopeia",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/brand/mid",
+   "nom":"brand",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/shaco/support",
+   "nom":"shaco",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/akshan/top",
+   "nom":"akshan",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/sivir/adc",
+   "nom":"sivir",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/gragas/jungle",
+   "nom":"gragas",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/aphelios/adc",
+   "nom":"aphelios",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/talon/mid",
+   "nom":"talon",
+   "lane":"mid"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/swain/adc",
+   "nom":"swain",
+   "lane":"adc"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/sylas/top",
+   "nom":"sylas",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/gnar/top",
+   "nom":"gnar",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/karthus/jungle",
+   "nom":"karthus",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/udyr/jungle",
+   "nom":"udyr",
+   "lane":"jungle"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/heimerdinger/top",
+   "nom":"heimerdinger",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/taric/support",
+   "nom":"taric",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/amumu/support",
+   "nom":"amumu",
+   "lane":"support"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/quinn/top",
+   "nom":"quinn",
+   "lane":"top"
+}{
+   "tier":"B",
+   "href":"https://www.metasrc.com/5v5/champion/taliyah/jungle",
+   "nom":"taliyah",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/neeko/mid",
+   "nom":"neeko",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/yasuo/adc",
+   "nom":"yasuo",
+   "lane":"adc"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/kennen/mid",
+   "nom":"kennen",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/jayce/mid",
+   "nom":"jayce",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/poppy/top",
+   "nom":"poppy",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/mordekaiser/jungle",
+   "nom":"mordekaiser",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/vladimir/top",
+   "nom":"vladimir",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/gragas/top",
+   "nom":"gragas",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/ziggs/mid",
+   "nom":"ziggs",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/qiyana/jungle",
+   "nom":"qiyana",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/ryze/mid",
+   "nom":"ryze",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/diana/jungle",
+   "nom":"diana",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/volibear/top",
+   "nom":"volibear",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/heimerdinger/mid",
+   "nom":"heimerdinger",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/ivern/jungle",
+   "nom":"ivern",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/shen/support",
+   "nom":"shen",
+   "lane":"support"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/pantheon/mid",
+   "nom":"pantheon",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/warwick/top",
+   "nom":"warwick",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/shyvana/jungle",
+   "nom":"shyvana",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/renekton/mid",
+   "nom":"renekton",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/volibear/jungle",
+   "nom":"volibear",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/cassiopeia/adc",
+   "nom":"cassiopeia",
+   "lane":"adc"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/gragas/support",
+   "nom":"gragas",
+   "lane":"support"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/skarner/top",
+   "nom":"skarner",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/kalista/adc",
+   "nom":"kalista",
+   "lane":"adc"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/lillia/top",
+   "nom":"lillia",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/akshan/adc",
+   "nom":"akshan",
+   "lane":"adc"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/cassiopeia/top",
+   "nom":"cassiopeia",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/rengar/jungle",
+   "nom":"rengar",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/monkeyking/jungle",
+   "nom":"monkeyking",
+   "lane":"jungle"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/karthus/mid",
+   "nom":"karthus",
+   "lane":"mid"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/syndra/adc",
+   "nom":"syndra",
+   "lane":"adc"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/galio/support",
+   "nom":"galio",
+   "lane":"support"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/vex/support",
+   "nom":"vex",
+   "lane":"support"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/illaoi/top",
+   "nom":"illaoi",
+   "lane":"top"
+}{
+   "tier":"C",
+   "href":"https://www.metasrc.com/5v5/champion/rumble/top",
+   "nom":"rumble",
+   "lane":"top"
+}{
+   "tier":"D",
+   "href":"https://www.metasrc.com/5v5/champion/maokai/top",
+   "nom":"maokai",
+   "lane":"top"
+}{
+   "tier":"D",
+   "href":"https://www.metasrc.com/5v5/champion/veigar/support",
+   "nom":"veigar",
+   "lane":"support"
+}{
+   "tier":"D",
+   "href":"https://www.metasrc.com/5v5/champion/azir/mid",
+   "nom":"azir",
+   "lane":"mid"
+}[
+   {
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/anivia/support",
+      "nom":"anivia",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/jax/jungle",
+      "nom":"jax",
+      "lane":"jungle"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/varus/adc",
+      "nom":"varus",
+      "lane":"adc"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/sejuani/top",
+      "nom":"sejuani",
+      "lane":"top"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/gangplank/mid",
+      "nom":"gangplank",
+      "lane":"mid"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/neeko/support",
+      "nom":"neeko",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/annie/support",
+      "nom":"annie",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/olaf/jungle",
+      "nom":"olaf",
+      "lane":"jungle"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/rengar/top",
+      "nom":"rengar",
+      "lane":"top"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/trundle/support",
+      "nom":"trundle",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/pantheon/support",
+      "nom":"pantheon",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/ivern/support",
+      "nom":"ivern",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/fiddlesticks/support",
+      "nom":"fiddlesticks",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/heimerdinger/support",
+      "nom":"heimerdinger",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/rumble/jungle",
+      "nom":"rumble",
+      "lane":"jungle"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/pantheon/top",
+      "nom":"pantheon",
+      "lane":"top"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/malphite/support",
+      "nom":"malphite",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/gwen/jungle",
+      "nom":"gwen",
+      "lane":"jungle"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/ryze/top",
+      "nom":"ryze",
+      "lane":"top"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/shyvana/top",
+      "nom":"shyvana",
+      "lane":"top"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/twitch/support",
+      "nom":"twitch",
+      "lane":"support"
+   }{
+      "tier":"D",
+      "href":"https://www.metasrc.com/5v5/champion/olaf/top",
+      "nom":"olaf",
+      "lane":"top"
+   }
+]
