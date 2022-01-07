@@ -3,25 +3,27 @@
 (setq iteration 0)
 (setq liste_champions '( "camille" "lulu" "lux" "leesin" "yasuo" "caitlyn" "yone" "jinx" "jhin" "zed" "jayce" "irelia" "yuumi" "morgana" "jax" "viktor" "thresh" "blitzcrank" "nami" "viego" "graves" "masteryi" "teemo" "sett" "leona" "vayne" "kayn" "kassadin" "talon" "darius" "tryndamere" "vex" "ezreal" "khazix" "shen" "leblanc" "drmundo" "katarina" "soraka" "shaco" "pyke" "fiora" "nasus" "hecarim" "lucian" "rakan" "nautilus" "tahmkench" "ekko" "sylas" "karma" "xinzhao" "malphite" "warwick" "missfortune" "garen" "janna" "akali" "chogath" "urgot" "xerath" "ornn" "mordekaiser" "sona" "vladimir" "riven" "senna" "zac" "jarvaniv" "nocturne" "akshan" "trundle" "kayle" "nunu" "twistedfate" "ahri" "zilean" "veigar" "ashe" "aurelionsol" "sion" "sejuani" "alistar" "brand" "bard" "corki" "kaisa" "anivia" "nidalee" "draven" "gangplank" "braum" "twitch" "zyra" "rammus" "karthus" "kindred" "syndra" "fizz" "singed" "zoe" "galio" "seraphine" "malzahar" "taliyah" "rell" "gwen" "reksai" "kled" "rumble" "fiddlesticks" "velkoz" "amumu" "maokai" "yorick" "lissandra" "kogmaw" "orianna" "annie" "qiyana" "ziggs" "xayah" "poppy" "kennen" "diana" "aatrox" "samira" "tristana" "skarner" "renekton" "lillia" "elise" "swain" "monkeyking" "heimerdinger" "evelynn" "sivir" "cassiopeia" "gragas" "aphelios" "gnar" "udyr" "taric" "quinn" "neeko" "ryze" "volibear" "ivern" "shyvana" "pantheon" "kalista" "rengar" "illaoi" "azir" "varus" "olaf"))
 
-(setq champions_adversaire '("zed" "teemo" "malphite"))
+(setq champions_adversaire1 '("yasuo" "zed" "teemo" "malphite" "camille"))
+(setq champions_adversaire2 '("lulu" "yone" "darius" "vayne"))
+(setq champions_adversaire3 '("ezreal" "vex" "jinx" "viktor"))
+(setq champions_adversaire champions_adversaire2)
+(setq laneCible "mid")
 
 
-;;fonction pour ajouter un fait dans la bdf, ou modifer un fait deja present
+;;fonction pour ajouter un fait (autre qu'un contre) dans la bdf, ou modifer un fait deja present 
 (defun ajouteFait (fait)
-    (let
-    (( indice -1))
-  (if (assoc (car fait) faits) ;;si element dans la liste
+   (let
+        ((indice -1) (flag nil))
       (loop for x in faits do
-       (setq indice (+ indice 1))
-       (if (eq (car x) (car fait))
-           (setf (nth indice faits) (list(car x) (cadr fait)))
-         )
-      )
-    (setq faits (cons fait faits)))
-      ))
-
+            (setq indice (+ indice 1))
+            (when (string-equal (car x) (car fait))              
+              (setf (cadr(nth indice faits))(cadr fait))
+              (setf flag T)
+              ))
+     (if (not flag) (setq faits (cons fait faits)))
+     ))
+;;fonction pour modifier un fait de type contre dans la bdf
 (defun ajouteFaitContre (fait)
-  (if (string-equal "garenContre" (car fait)) (print "----------"))
     (let
         ((indice -1))
       (loop for x in faits do
@@ -51,18 +53,38 @@
   (ajouteFait '("top" T))
   
   ;;ici la liste des champions maitrises par le joueur qui pick
-  (ajouteFait '("camilleConnu" T))
-  (ajouteFait '("jaxConnu" T))
-  (ajouteFait '("yoneConnu" T))
-  (ajouteFait '("ireliaConnu" T))
-  (ajouteFait '("mundoConnu" T))
-  (ajouteFait '("sionConnu" T))
-  (ajouteFait '("jayceConnu" T))
-  (ajouteFait '("garenConnu" T))
+(cond 
+ ((string-equal laneCible "top") (progn
+                                   ;;liste des champions connu par le joueur jouant la postition "top"
+                                     (ajouteFait '("camilleConnu" T))
+                                     (ajouteFait '("jaxConnu" T))
+                                     (ajouteFait '("yoneConnu" T))
+                                     (ajouteFait '("ireliaConnu" T))
+                                     (ajouteFait '("drmundoConnu" T))
+                                     (ajouteFait '("sionConnu" T))))
+ ((string-equal laneCible "mid") (progn
+                                   ;;liste des champions connu par le joueur jouant la postition "mid"
+                                     (ajouteFait '("luxConnu" T))
+                                     (ajouteFait '("viktorConnu" T))
+                                     (ajouteFait '("aniviaConnu" T))
+                                     (ajouteFait '("yoneConnu" T))
+                                     (ajouteFait '("vexConnu" T))
+                                     (ajouteFait '("velkozConnu" T))))
+ ((string-equal laneCible "adc") (progn
+                                   ;;liste des champions connu par le joueur jouant la postition "adc"
+                                     (ajouteFait '("asheConnu" T))
+                                     (ajouteFait '("jhinConnu" T))
+                                     (ajouteFait '("vayneConnu" T))
+                                     (ajouteFait '("lucianConnu" T))
+                                     (ajouteFait '("dravenConnu" T))
+                                     (ajouteFait '("samiraConnu" T))
+                                     (ajouteFait '("tristanaConnu" T))))
+   )
+
    
   )
 
-(remplir_faits)
+
 
 ;;fonction qui insere une regle dans la bdr
 (defun ajouteRegle (conditions result) 
@@ -330,7 +352,8 @@
              (list "camilleContre" -1))
 (ajouteRegle '(("teemoAdversaire" T) ("garenDispoLane" T))
              (list "garenContre" 2))
-(ajouteRegle '(("fizzAdversaire" T) ("akshanDispoLane" T)) (list "akshanContre"  1)) 
+(ajouteRegle '(("fizzAdversaire" T) ("akshanDispoLane" T)) (list "akshanContre"  1))
+
 (ajouteRegle '(("akshanAdversaire" T) ("fizzDispoLane" T)) (list "fizzContre"  -1))
 (ajouteRegle '(("singedAdversaire" T) ("ekkoDispoLane" T)) (list "ekkoContre"  1)) 
 (ajouteRegle '(("ekkoAdversaire" T) ("singedDispoLane" T)) (list "singedContre"  -1))
@@ -646,7 +669,8 @@
 (ajouteRegle '(("kledAdversaire" T) ("settDispoLane" T)) (list "settContre"  -1))
 (ajouteRegle '(("leonaAdversaire" T) ("maokaiDispoLane" T)) (list "maokaiContre"  1)) 
 (ajouteRegle '(("maokaiAdversaire" T) ("leonaDispoLane" T)) (list "leonaContre"  -1))
-(ajouteRegle '(("vayneAdversaire" T) ("sonaDispoLane" T)) (list "sonaContre"  1)) 
+(ajouteRegle '(("vayneAdversaire" T) ("sonaDispoLane" T)) (list "sonaContre"  1))
+(ajouteRegle '(("vayneAdversaire" T) ("drmundoDispoLane" T)) (list "drmundoContre"  -5))
 (ajouteRegle '(("sonaAdversaire" T) ("vayneDispoLane" T)) (list "vayneContre"  -1))
 (ajouteRegle '(("luxAdversaire" T) ("corkiDispoLane" T)) (list "corkiContre"  1)) 
 (ajouteRegle '(("corkiAdversaire" T) ("luxDispoLane" T)) (list "luxContre"  -1))
@@ -816,44 +840,40 @@
 (ajouteRegle '(("zileanAdversaire" T) ("kayleDispoLane" T)) (list "kayleContre"  -1))
 
 
-;;
-  (loop for champion in liste_champions do
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")0))
+(loop for champion in liste_champions do
+        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre") "POSITIF"))
                      (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")1))
-                     (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do 
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")2))
-                     (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do 
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")3))
-                     (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do 
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")4))
-                     (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do 
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")5))
-                     (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do 
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")6))
-                     (list (concatenate 'string champion "Choix")T)))
-  (loop for champion in liste_champions do 
-        (ajouteRegle (list(list (concatenate 'string champion "Jouable")T) (list (concatenate 'string champion "Contre")7))
-                     (list (concatenate 'string champion "Choix")T)))
+
+
+(setq regles (reverse regles))
+
 )
 
-
-
-(remplir_regles)
+(defun initialiser_se ()
+  (remplir_faits)
+  (remplir_regles)
+)
 
 ;; fonction qui renvoie T si les conditions d une regle sont satisfaites, Nil sinon
+
 (defun regle_verifie (regle)
-  (let ((flag T))               
+  (let ((flag T))  
     (loop for fait in (car regle) do
-        (if (not (member fait faits :test #'equal))
-            (setq flag Nil)
-          ))
+          ;;dans le cas ou le fait concerne la positivite du nombre de contre
+          (if (and (stringp (cadr fait)) (string-equal (cadr fait) "positif"))
+              (if (> 0 (cadr(assoc (car fait) faits :test #'string-equal)))
+                  ;; on peut changer > 0 en > 1 voir plus si on souhaite etre plus exigeant, au risque de ne pas avoir de resultat
+                  (progn
+                    (setq flag nil)
+                    ;;(print regle)(print fait) (print flag)
+                    )
+                ;;(progn (print regle)(print fait) (print flag))
+                )
+          ;; sinon
+            (if 
+              (not (member fait faits :test #'equal))
+                (setq flag Nil)))
+          )
     flag
     ))
 
@@ -861,37 +881,45 @@
 ;; le moteur avant 
 (defun moteur_avant (flag)
   (loop for regle in regles do
-      (if (regle_verifie regle)
-          (loop for fait in (cdr regle) do
-                ;;(print "on va ajouter le fait suivant")
-                ;;(print fait)
-                (if (numberp (cadr fait)) (ajouteFaitContre fait) (ajouteFait fait))
-                (setq regles (remove regle regles :test #'equal))
+        (if (regle_verifie regle)
+            (loop for fait in (cdr regle) do
+                ;;(format t "~%la regle ~s est verifi?e "regle)
+                ;;(format t "~%on va ajouter le fait suivant: ~s"fait)
+                (if (numberp (cadr fait)) (ajouteFaitContre fait) (ajouteFait fait)) ;;on appelle la bonne fonction pour ajouter le fait
+                (setq regles (remove regle regles :test #'equal)) ;; on retire la regle de la bdr pour ne plus la rappeller
                 (setq flag T)
                 (setq iteration (+ iteration 1))
                 ))
   (setq iteration (+ iteration 1)))
-  (if flag (moteur_avant nil)))
+  (if flag (moteur_avant nil))) ;; si la bdf a evoluer, on continu le moteur avant
 
 (defun afficher_resultat (bdf)
   (loop for champion in liste_champions do
         (if (member (list (concatenate 'string champion "Choix")T) faits :test #'equal)
-            (format t "~%on peut choisir le champion ~s"champion)))
+                (format t "~%on peut choisir le champion ~s"champion)))
 )
-
+;; fonction d'affichage
 (defun afficher_bdr (bdr)
   (let ((cpt 0))
     (loop for regle in bdr do
           (setq cpt (+ 1 cpt))
           (format t "~% Regle n°~s : ~s" cpt regle))))
+(defun afficher_bdf (bdf)
+  (let ((cpt 0))
+    (loop for fait in faits do
+          (setq cpt (+ 1 cpt))
+          (format t "~% Fait n°~s : ~s" cpt fait))))
 
 
-;;(afficher_bdr regles)
-(moteur_avant nil)
-;;(afficher_bdr regles)
-;;(loop for fait in faits do (print fait))
-;;(nombre_contre "camille")
-(nombre_contre "garen")
-(afficher_resultat faits)
-                                            
-(format t "~%On a effectue ~s iterations"iteration)
+(defun lancer_moteur_avant ()
+  (initialiser_se)
+  ;; enlever commentaire pour voir la bdr avant l'appelle du moteur
+  (afficher_bdr regles)
+  ;;(afficher_bdf bdf) avant le chainage avant
+  (moteur_avant nil)
+  ;;(afficher_bdf faits) ;;apres le chainage avant
+  (afficher_resultat faits)
+  (format t "~%On a effectue ~s iterations"iteration)
+  )
+
+(lancer_moteur_avant)

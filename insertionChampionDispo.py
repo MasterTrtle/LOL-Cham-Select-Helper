@@ -12,10 +12,6 @@ with open('data.json') as data_file:
             f.write(string)
             f.write('\n')
 
-
-
-
-
 #(ajouteRegle '(("CamilleDispo" T) ("Top" T)) '("CamilleDispoLane"  T))
 
 
